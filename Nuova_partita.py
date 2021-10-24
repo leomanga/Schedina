@@ -1,13 +1,6 @@
 import Utili
 
 
-def inviaMessaggioGlobale(nome):
-    file = Utili.apriFile('persone.json')
-    for i in file['persone'].keys():
-        id = file['persone'][i]['id']
-        bot.send_message(id, f'AGGIUNTA PARTITA[{nome}]')
-
-
 def aggiungiMoltiplicatori(message, id, nome, partite, posizione):
 
     try:
@@ -18,7 +11,7 @@ def aggiungiMoltiplicatori(message, id, nome, partite, posizione):
         partite['attive'][posizione].append(nome)
         Utili.inserisciFile('partita.json', partite)
         bot.send_message(id, "FATTO!")
-        inviaMessaggioGlobale(nome)
+        Utili.inviaMessaggioGlobale(bot, id, f'AGGIUNTA PARTITA[{nome}]')
     except(ValueError):
         bot.send_message(id, 'Separa con le virgole per favore')
 

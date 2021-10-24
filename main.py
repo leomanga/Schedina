@@ -112,7 +112,9 @@ while True:
     def fine_partita(message):
         id = message.from_user.id
         file = Utili.apriFile('persone.json')
-        if isConnected(file, id):
+        partite = Utili.apriFile('partita.json')
+        if isConnected(file, id) and len(partite['attive']) > 0:
             Fine_partita.start(bot, id)
-
+        else:
+            bot.send_message(id, 'Non ci sono partite attive')
     bot.polling()
