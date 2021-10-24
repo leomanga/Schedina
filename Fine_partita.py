@@ -19,7 +19,7 @@ def ottieniVincitore(message, id, file_partite, numero):
     for i in file_persone['persone'].keys():
         id_persona = file_persone['persone'][i]['id']
         puntata = file_persone['persone'][i]['ultima puntata'].pop(numero)
-        print(puntata, partita_finita)
+
         vincita = puntata[vincitore] * partita_finita[vincitore]
         guadagno = vincita - sum(puntata)
         file_persone['persone'][i]['fondi'] = file_persone['persone'][i]['fondi'] + guadagno

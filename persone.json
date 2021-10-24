@@ -1,1 +1,43 @@
-{"lista_id": {"381841578": "LEONARDO MANGANI"}, "persone": {"LEONARDO MANGANI": {"id": "381841578", "fondi": 1050, "ultima puntata": [], "puntate": [[0, 0, 0, "Napoli-Inter"]], "guadagno": 50, "andamento": [1000, 1050]}, "ANTONIO BELLO": {"id": "381841578", "fondi": 1000, "ultima puntata": [[0, 0, 0]], "puntate": [[0, 0, 0]], "guadagno": 0, "andamento": ["1000"]}}}
+{
+    "lista_id": {
+        "381841578": "LEONARDO MANGANI"
+    },
+    "persone": {
+        "LEONARDO MANGANI": {
+            "id": "381841578",
+            "fondi": 1100,
+            "ultima puntata": [],
+            "puntate": [
+                [
+                    100,
+                    0,
+                    0
+                ]
+            ],
+            "guadagno": 100,
+            "andamento": [
+                1000,
+                1050,
+                1100
+            ]
+        },
+        "ANTONIO BELLO": {
+            "id": "381841578",
+            "fondi": 1000,
+            "ultima puntata": [],
+            "puntate": [
+                [
+                    0,
+                    0,
+                    0
+                ]
+            ],
+            "guadagno": 0,
+            "andamento": [
+                1000,
+                1000,
+                1000
+            ]
+        }
+    }
+}

@@ -1,1 +1,13 @@
-{"vecchie_partite": {"Fiorentina-Napoli": {"moltiplicatore:": [1, 1, 1], "risultato": -1}}, "attive": []}
+{
+    "vecchie_partite": {
+        "Fiorentina-Napoli": {
+            "moltiplicatore:": [
+                1,
+                1,
+                1
+            ],
+            "risultato": -1
+        }
+    },
+    "attive": []
+}
