@@ -1,0 +1,19 @@
+{"lista_id":
+  {"381841578": "LEONARDO MANGANI"},
+"persone":
+  {"LEONARDO MANGANI":
+    {"id": "381841578",
+    "fondi": 1000,
+    "ultima puntata": [0, 0, 0],
+    "puntate": [[0, 0, 0]],
+    "guadagno": 0,
+    "andamento": ["1000"]},
+  "ANTONIO BELLO":
+    {"id": "381841578",
+    "fondi": 1000,
+    "ultima puntata": [0, 0, 0],
+    "puntate": [[0, 0, 0]],
+    "guadagno": 0,
+    "andamento": ["1000"]}
+  }
+}
